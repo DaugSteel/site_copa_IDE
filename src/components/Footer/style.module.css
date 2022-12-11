@@ -4,28 +4,39 @@
     height: 20vh;
     background-color: #092159;
     color: #FFFFFF;
+    border: 0;
 }
 
 .cbf
 {
-    height: 13vh;
-    border: 0;
+    height: 20vh;
+    box-sizing: border-box;
+    display: flex;
     padding: 2% 4%;
 }
 
-.cbf div
+.cbf img
 {
-    width: 35vw;
-    display: inline-block;
-    text-align: justify;
-    vertical-align: baseline;
-    padding-left: 2%;
-    color: #FFFFFF;
+    height: 12vh;
+    padding-right: 3%;
+    vertical-align: middle;
 }
 
-.IDE
+.div1
+{
+    width: 32vw;
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    padding-right: 52%;
+}
+
+.div2
 {
     height: 13vh;
-    padding-left: 40%;
-    vertical-align: top;
+}
+
+.div2 img
+{
+    height: 8vh;
 }
