@@ -1,0 +1,53 @@
+.headerImg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  background-image: url('cover.png');
+  background-repeat: no-repeat;
+  /* Covers whole width of parent */
+  background-size: cover;
+  width: 100%;
+  /* Keeps it centered when resizing */
+  background-position: center center;
+  /* Allows resizing img */
+  height: max(85vh, 559px);
+  background-position-y: -15px;
+}
+
+.x {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.containerLogo{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.logo{
+  max-height: 100px;
+  max-width: 200px;
+}
+
+.containerTitle {
+  /* Shadow on title text */
+  background-image: linear-gradient(to top, rgb(0, 10, 59), rgba(0, 0, 0, 0));
+  align-self: flex-end;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 57.5px;
+  margin-right: auto;
+  margin-left: 40px;
+  max-width: min(500px, 90vw);
+}

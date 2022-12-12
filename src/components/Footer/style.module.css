@@ -1,42 +1,56 @@
 .container
 {
+    max-height: 112px;
     width: 100%;
-    height: 20vh;
     background-color: #092159;
     color: #FFFFFF;
     border: 0;
+    display: flex;
 }
 
 .cbf
 {
-    height: 20vh;
+    width: 100%;
     box-sizing: border-box;
-    display: flex;
     padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.cbf img
+.cbfLogo
 {
-    height: 12vh;
-    padding-right: 3%;
+    height: 90%;
     vertical-align: middle;
 }
 
 .div1
 {
-    width: 32vw;
-    font-family: 'Poppins';
-    font-size: 1.1rem;
+    max-width: 60%;
+    font-size: min(12px, 2vw);
+    font-weight: 300;
     color: #FFFFFF;
-    padding-right: 52%;
+    display: flex;
+    gap: 16px;
+}
+
+.text 
+{
+    padding-top: 3%;
 }
 
 .div2
 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     height: 13vh;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .div2 img
 {
-    height: 8vh;
+    width: 92%;
 }

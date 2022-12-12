@@ -4,11 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Capa from './components/Capa';
+import Sobre from './components/Sobre';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
+    <Capa/>
+    <Sobre/>
     <Footer/>
   </React.StrictMode>
 );

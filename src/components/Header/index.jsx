@@ -4,12 +4,10 @@ export default function Header()
 {
     return (
         <div className={styles.header}>
-            <ul>
-                <li> HOME </li>
-                <li> SOBRE </li>
-                <li> JOGADORES </li>
-                <li> JOGOS </li>
-            </ul>
+            <a className={styles.link} href="">HOME</a>
+            <a className={styles.link} href="#sobre">SOBRE</a>
+            <a className={styles.link} href="">JOGADORES</a>
+            <a className={styles.link} href="">JOGOS</a>
         </div>
     )
 }

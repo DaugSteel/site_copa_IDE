@@ -5,13 +5,15 @@ export default function Footer()
     return (
         <div className={styles.container}>
             <div className={styles.cbf}>
-                <img src="/cbf1.png" alt="Foto do logo da CBF"/>
 
                 <div className={styles.div1}>
-                    Confederação Brasileira de Futebol © x IDE © Todos os direitos reservados. 
-                    <br/>
-                    <br/>
-                    Termos de Uso | Politica de Privacidade | Política de Cookies
+                    <img className={styles.cbfLogo} src="/cbf1.png" alt="Foto do logo da CBF"/>
+                    <div className={styles.text}>
+                        Confederação Brasileira de Futebol © x IDE © Todos os direitos reservados. 
+                        <br/>
+                        <br/>
+                        Termos de Uso | Politica de Privacidade | Política de Cookies
+                    </div>
                 </div>
                 
                 <div className={styles.div2}> 
