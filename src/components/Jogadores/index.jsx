@@ -38,7 +38,7 @@ export default class Jogadores extends React.Component {
         </div>
 
         {this.state.players.map((player) => {
-          valorKey++
+          valorKey++;
           return <Jogador player = {player} key={valorKey} count = {valorKey} />;
         })}
         
