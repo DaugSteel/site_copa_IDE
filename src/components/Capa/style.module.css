@@ -3,7 +3,7 @@
   align-items: flex-start;
   justify-content: center;
   position: relative;
-  background-image: url('cover.png');
+  background-image: url('./cover.png');
   background-repeat: no-repeat;
   /* Covers whole width of parent */
   background-size: cover;
