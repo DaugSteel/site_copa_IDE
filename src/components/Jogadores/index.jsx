@@ -17,6 +17,7 @@ export default class Jogadores extends React.Component {
   }
 
   updatePlayers = (number) => {
+    valorKey = 0;
     this.setState({ players: playerArray[number], selected: number});
   }
 
