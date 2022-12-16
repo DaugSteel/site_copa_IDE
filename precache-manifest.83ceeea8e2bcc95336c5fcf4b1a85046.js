@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "12e98559b63b50d28a62",
-    "url": "/site_copa_IDE/static/css/main.6e51c012.chunk.css"
+    "revision": "ecfa3a8066205b88b43c",
+    "url": "/site_copa_IDE/static/css/main.22d2163a.chunk.css"
   },
   {
-    "revision": "12e98559b63b50d28a62",
-    "url": "/site_copa_IDE/static/js/main.12e98559.chunk.js"
+    "revision": "ecfa3a8066205b88b43c",
+    "url": "/site_copa_IDE/static/js/main.ecfa3a80.chunk.js"
   },
   {
     "revision": "0a3fad24fe19322116ed",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/site_copa_IDE/static/media/ghana.e35ee740.png"
   },
   {
-    "revision": "1f94258693a5123b36e36383713e93a9",
+    "revision": "71856dcb6ef282648b86df2ad7e0fc02",
     "url": "/site_copa_IDE/index.html"
   }
 ];
