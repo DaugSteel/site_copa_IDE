@@ -7,7 +7,7 @@ export default function Footer()
             <div className={styles.cbf}>
 
                 <div className={styles.div1}>
-                    <img className={styles.cbfLogo} src="/cbf1.png" alt="Foto do logo da CBF"/>
+                    <img className={styles.cbfLogo} src={require("./cbf1.png")} alt="Foto do logo da CBF"/>
                     <div className={styles.text}>
                         Confederação Brasileira de Futebol © x IDE © Todos os direitos reservados. 
                         <br/>
@@ -19,7 +19,7 @@ export default function Footer()
                 <div className={styles.div2}> 
                     Realização:
                     <br/>
-                    <img src="/IDE.png" alt="Foto do logo da IDE"/>    
+                    <img src={require("./IDE.png")} alt="Foto do logo da IDE"/>    
                 </div>
             </div>
                 

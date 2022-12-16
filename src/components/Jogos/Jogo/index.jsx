@@ -5,7 +5,7 @@ export default function Jogo(props)
     return (
         <div className={styles.container}>
             <div className={styles.top}>
-                <img src='/brasil.png' alt='Escudo da Seleção Brasileira'/>
+                <img src={require('./Selecoes/brasil.png')} alt='Escudo da Seleção Brasileira'/>
                 <div> X </div>
                 <img src={props.adversario} alt='Escudo da Seleção Adversária'/>
             </div>
