@@ -4,7 +4,7 @@ import Jogo from './Jogo'
 export default function Jogos() 
 {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="jogos">
             <p> PRÓXIMOS JOGOS</p>
             <Jogo dia='Quinta-Feira' data='02/11' horario='07:20' adversario='/japao.png'></Jogo>
             <Jogo dia='Sexta-Feira' data='07/11' horario='08:00' adversario='/coreia.png'></Jogo>

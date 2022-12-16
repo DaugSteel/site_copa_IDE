@@ -22,7 +22,7 @@ export default class Jogadores extends React.Component {
 
   render() {
     return (
-      <div className='container'>
+      <div className='container' id="jogadores">
 
         <div className='container2'>
         
