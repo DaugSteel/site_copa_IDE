@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Capa from './components/Capa';
 import Sobre from './components/Sobre';
+import Jogadores from './components/Jogadores';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <Header/>
     <Capa/>
     <Sobre/>
+    <Jogadores/>
     <Footer/>
   </React.StrictMode>
 );
