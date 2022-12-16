@@ -1,4 +1,4 @@
-import styles from './style.module.css'
+import './style.css'
 
 export default function Header() 
 {
@@ -14,11 +14,11 @@ export default function Header()
     });
 
     return (
-        <div className={styles.header} id="home">
-            <a className={styles.link} href="#home">HOME</a>
-            <a className={styles.link} href="#sobre">SOBRE</a>
-            <a className={styles.link} href="#jogadores">JOGADORES</a>
-            <a className={styles.link} href="#jogos">JOGOS</a>
+        <div className='header' id="home">
+            <a className='link' href="#home">HOME</a>
+            <a className='link' href="#sobre">SOBRE</a>
+            <a className='link' href="#jogadores">JOGADORES</a>
+            <a className='link' href="#jogos">JOGOS</a>
         </div>
     )
 }
