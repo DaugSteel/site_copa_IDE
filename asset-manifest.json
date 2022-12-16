@@ -1,7 +1,7 @@
 {
-  "main.css": "/site_copa_IDE/static/css/main.22d2163a.chunk.css",
-  "main.js": "/site_copa_IDE/static/js/main.ecfa3a80.chunk.js",
-  "main.js.map": "/site_copa_IDE/static/js/main.ecfa3a80.chunk.js.map",
+  "main.css": "/site_copa_IDE/static/css/main.b61ad548.chunk.css",
+  "main.js": "/site_copa_IDE/static/js/main.725efbb0.chunk.js",
+  "main.js.map": "/site_copa_IDE/static/js/main.725efbb0.chunk.js.map",
   "static/js/1.0a3fad24.chunk.js": "/site_copa_IDE/static/js/1.0a3fad24.chunk.js",
   "static/js/1.0a3fad24.chunk.js.map": "/site_copa_IDE/static/js/1.0a3fad24.chunk.js.map",
   "static/js/2.1671bdcf.chunk.js": "/site_copa_IDE/static/js/2.1671bdcf.chunk.js",
@@ -12,8 +12,8 @@
   "static/media/japao.png": "/site_copa_IDE/static/media/japao.6f29a4c1.png",
   "static/media/coreia.png": "/site_copa_IDE/static/media/coreia.8d884908.png",
   "static/media/ghana.png": "/site_copa_IDE/static/media/ghana.e35ee740.png",
-  "static/css/main.22d2163a.chunk.css.map": "/site_copa_IDE/static/css/main.22d2163a.chunk.css.map",
+  "static/css/main.b61ad548.chunk.css.map": "/site_copa_IDE/static/css/main.b61ad548.chunk.css.map",
   "index.html": "/site_copa_IDE/index.html",
-  "precache-manifest.83ceeea8e2bcc95336c5fcf4b1a85046.js": "/site_copa_IDE/precache-manifest.83ceeea8e2bcc95336c5fcf4b1a85046.js",
+  "precache-manifest.44c48070dd6e044ae0a7a58fda2bfb53.js": "/site_copa_IDE/precache-manifest.44c48070dd6e044ae0a7a58fda2bfb53.js",
   "service-worker.js": "/site_copa_IDE/service-worker.js"
 }
