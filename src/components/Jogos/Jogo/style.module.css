@@ -35,7 +35,6 @@
 {
     height: 70%;
     width: auto;
-    
 }
 
 .top div
@@ -46,12 +45,16 @@
 
 .bottom
 {
-    height: 14vh;
-    min-height: fit-content;
+    height: 12vh;
+    min-height: 90px;
     width: max(415px, 39.5vw);
     align-self: center;
     border-radius: 0 0 25px 25px;
     background-color: #079A5A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bottom div
@@ -63,6 +66,6 @@
     .top, .bottom {
         width: 70%;
         /* Garante que containers nao serao menores que imagens */
-        min-width: 300px;
+        min-width: 330px;
     }
 }
